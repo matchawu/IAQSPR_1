@@ -18,4 +18,6 @@
     <string name="todo">TODO</string>
     <string name="on">ON</string>
     <string name="off">OFF</string>
+    <string name="halo_this_map">halo_this_map</string>
+    <string name="halo_this_user">halo_this_user</string>
 </resources>

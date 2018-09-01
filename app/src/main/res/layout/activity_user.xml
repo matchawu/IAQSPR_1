@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#2F2F2F"
     android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="19dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/dashboard"
+        android:text="@string/halo_this_user"
         android:textColor="#ffffff"
-        android:textSize="15sp" />
+        android:textSize="18sp" />
 
     <TableLayout
         android:layout_width="match_parent"
@@ -21,48 +21,57 @@
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/btnSensor"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:text="@string/sensor" />
+                android:text="@string/sensor"
+                android:textColor="#E3E3E3"
+                android:drawableTop="@drawable/ic_pie_chart_black_24dp"/>
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/btnMap"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:text="@string/maps" />
+                android:text="@string/maps"
+                android:textColor="#E3E3E3"
+                android:drawableTop="@drawable/ic_place_black_24dp"/>
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/btnUser"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:text="@string/userinfo" />
+                android:text="@string/userinfo"
+                android:textColor="#E3E3E3"
+                android:drawableTop="@drawable/ic_person_black_24dp"/>
         </TableRow>
 
         <LinearLayout>
 
             <ImageButton
-                android:layout_width="46dp"
+                android:layout_width="73dp"
                 android:layout_height="match_parent"
                 android:background="@android:color/transparent"
-                android:src="@drawable/ic_chevron_left_black_24dp"
-                android:tint="@color/colorAccent"
-                android:contentDescription="@string/todo" />
+                android:contentDescription="@string/todo"
+                android:src="@drawable/ic_chevron_left_black_24dp" />
 
             <ProgressBar
                 android:layout_width="0dp"
                 android:layout_height="200dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:theme="@style/ProgressTheme"/>
+
 
             <ImageButton
-                android:layout_width="46dp"
+                android:layout_width="73dp"
                 android:layout_height="match_parent"
                 android:background="@android:color/transparent"
-                android:src="@drawable/ic_chevron_right_black_24dp"
-                android:tint="@color/colorAccent"
-                android:contentDescription="@string/todo" />
+                android:contentDescription="@string/todo"
+                android:src="@drawable/ic_chevron_right_black_24dp" />
         </LinearLayout>
 
 
@@ -86,8 +95,9 @@
                 android:textSize="18sp"
                 android:switchTextAppearance="@style/SwitchTheme"
                 android:showText="true"
-                android:textOff="OFF"
-                android:textOn="ON"/>
+                android:textOff="@string/off"
+                android:textOn="@string/on"
+                tools:targetApi="lollipop"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -115,8 +125,9 @@
                 android:textSize="18sp"
                 android:switchTextAppearance="@style/SwitchTheme"
                 android:showText="true"
-                android:textOff="OFF"
-                android:textOn="ON"/>
+                android:textOff="@string/off"
+                android:textOn="@string/on"
+                tools:targetApi="lollipop"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -154,7 +165,7 @@
                 android:layout_gravity="center"
                 android:text="@string/_40"
                 android:textSize="25sp"
-                android:textColor="#ffffff"/>
+                android:textColor="#d4da00"/>
             <Button
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="match_parent"
@@ -163,7 +174,7 @@
                 android:layout_gravity="center"
                 android:text="@string/_25"
                 android:textSize="25sp"
-                android:textColor="#ffffff"/>
+                android:textColor="#d4da00"/>
         </TableRow>
         <TableRow>
 
@@ -194,7 +205,7 @@
                 android:layout_gravity="center"
                 android:text="@string/_40"
                 android:textSize="25sp"
-                android:textColor="#ffffff"/>
+                android:textColor="#d4da00"/>
             <Button
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="match_parent"
@@ -203,7 +214,7 @@
                 android:layout_gravity="center"
                 android:text="@string/_25"
                 android:textSize="25sp"
-                android:textColor="#ffffff"/>
+                android:textColor="#d4da00"/>
         </TableRow>
 
     </TableLayout>

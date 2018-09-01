@@ -6,33 +6,33 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Main3Activity extends AppCompatActivity {
+public class Map extends AppCompatActivity {
 
-
-    private Button btnMap;
+    private Button btnSensor;
     private Button btnUser;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main3);
+        setContentView(R.layout.activity_map);
 
-        btnMap = findViewById(R.id.btnMap);
-
-        btnMap.setOnClickListener(new View.OnClickListener() {
+//        press S
+        btnSensor = findViewById(R.id.btnSensor);
+        btnSensor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent( Main3Activity.this, Map.class);
+                Intent intent = new Intent( Map.this, Main3Activity.class);
                 startActivity(intent);
 
             }
         });
 
+//        press U
         btnUser = findViewById(R.id.btnUser);
-
         btnUser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent( Main3Activity.this, User.class);
+                Intent intent = new Intent( Map.this, User.class);
                 startActivity(intent);
 
             }

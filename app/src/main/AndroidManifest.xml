@@ -18,6 +18,8 @@
         </activity>
         <activity android:name=".Main2Activity" />
         <activity android:name=".Main3Activity" />
+        <activity android:name=".Map" />
+        <activity android:name=".User"></activity>
     </application>
 
 </manifest>
