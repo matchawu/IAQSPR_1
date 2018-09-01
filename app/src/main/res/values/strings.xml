@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Hello</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_1">1</string>
+    <string name="sensor">sensor</string>
+    <string name="userinfo">userInfo</string>
+    <string name="maps">maps</string>
+    <string name="happy">happy</string>
+    <string name="iaqspr">iaqspr</string>
+    <string name="dashboard">dashboard</string>
+    <string name="gas">GAS</string>
+    <string name="_40">40</string>
+    <string name="co2">CO2</string>
+    <string name="_25">25</string>
+    <string name="pm2_5">PM2.5</string>>
+    <string name="pm10">PM10</string>
+    <string name="todo">TODO</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+</resources>
