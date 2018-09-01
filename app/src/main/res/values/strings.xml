@@ -20,4 +20,7 @@
     <string name="off">OFF</string>
     <string name="halo_this_map">halo_this_map</string>
     <string name="halo_this_user">halo_this_user</string>
+    <string name="enter">Enter</string>
+    <string name="lalala">lalala</string>
+    <string name="air_quality">Air Quality</string>
 </resources>

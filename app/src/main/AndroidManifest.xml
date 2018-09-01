@@ -19,7 +19,8 @@
         <activity android:name=".Main2Activity" />
         <activity android:name=".Main3Activity" />
         <activity android:name=".Map" />
-        <activity android:name=".User"></activity>
+        <activity android:name=".User" />
+        <activity android:name=".Tab"></activity>
     </application>
 
 </manifest>
