@@ -31,4 +31,8 @@
     <string name="radiohead">radiohead</string>
     <string name="_192_168_19_131">192.168.19.131</string>
     <string name="device_id">Device ID:</string>
+    <string name="open_air_purifier">Open air purifier</string>
+    <string name="turn_on_device">Turn on    device</string>
+    <string name="purifier_power">Purifier Power</string>
+    <string name="device_power">Device Power</string>
 </resources>

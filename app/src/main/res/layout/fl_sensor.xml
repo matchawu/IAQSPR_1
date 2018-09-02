@@ -59,13 +59,14 @@
 
             <Switch
                 android:id="@+id/switch1"
-                android:layout_width="match_parent"
+
+                android:layout_width="358dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:showText="true"
                 android:switchTextAppearance="@style/SwitchTheme"
-                android:text="@string/open_the_air_purifier"
+                android:text="@string/purifier_power"
                 android:textColor="#FFFFFF"
                 android:textOff="@string/off"
                 android:textOn="@string/on"
@@ -91,12 +92,13 @@
 
             <Switch
                 android:id="@+id/switch2"
-                android:layout_width="match_parent"
+                android:layout_width="262dp"
                 android:layout_height="50dp"
+                android:layout_gravity="center"
                 android:layout_weight="1"
                 android:showText="true"
                 android:switchTextAppearance="@style/SwitchTheme"
-                android:text="@string/open_the_iaqspr"
+                android:text="@string/device_power"
                 android:textColor="#FFFFFF"
                 android:textOff="@string/off"
                 android:textOn="@string/on"
@@ -113,12 +115,6 @@
         </TableRow>
 
 
-        <TableRow>
-
-            <TextView
-                android:layout_width="154dp"
-                android:layout_height="wrap_content" />
-        </TableRow>
     </TableLayout>
     <TableLayout
         android:layout_width="wrap_content"
