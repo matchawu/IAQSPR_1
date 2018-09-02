@@ -4,9 +4,14 @@ package com.example.ruby.hello;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTabHost;
+//import android.view.View;
+
+//import android.widget.TextView;
 
 public class Tab extends FragmentActivity
 {
+//    private View indicator = null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -19,20 +24,25 @@ public class Tab extends FragmentActivity
         mTabHost.setup(this, getSupportFragmentManager(), R.id.container);
 
         mTabHost.addTab(mTabHost.newTabSpec("one")
-                        .setIndicator("Sensor",getResources().getDrawable(R.drawable.ic_pie_chart_black_24dp))
+                        .setIndicator("",getResources().getDrawable(R.drawable.ic_pie_chart_black_24dp))
                 ,SensorFragment.class,null);
 
+
         //同上方Tab設定，不同處為帶入參數的差異
+
         mTabHost.addTab(mTabHost.newTabSpec("two")
-                        .setIndicator("Map",getResources().getDrawable(R.drawable.ic_place_black_24dp))
+                        .setIndicator("",getResources().getDrawable(R.drawable.ic_place_black_24dp))
                 ,MapFragment.class,null);
 
         //同上方Tab設定，不同處為帶入參數的差異
         mTabHost.addTab(mTabHost.newTabSpec("three")
-                        .setIndicator("User",getResources().getDrawable(R.drawable.ic_person_black_24dp))
+                        .setIndicator("",getResources().getDrawable(R.drawable.ic_person_black_24dp))
                 ,UserFragment.class, null);
 
     }
+
+
+
 
 
     //Tab - Lesson One的文字內容

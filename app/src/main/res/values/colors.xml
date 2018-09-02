@@ -8,4 +8,6 @@
     <color name="accent_green">#97e08f</color>
     <color name="accent_white">#ffffff</color>
     <color name="accent_grey">#d62f2f2f</color>
+    <color name="accent_whitegrey">#eadedede</color>
+    <color name="accent_rice">#FFFBDE</color>
 </resources>

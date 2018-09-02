@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingTop="35dip"
     android:background="#2F2F2F"
-    >
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="154dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_alignTop="@+id/text"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="@string/map_route"
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
 
     <!-- 標籤切換的內容圖片 -->
     <ImageView
@@ -13,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        />
+        android:contentDescription="@string/todo" />
 
     <!-- 標籤切換的內容文字 -->
     <TextView
@@ -26,4 +39,4 @@
         android:lineSpacingExtra="20dip"
         />
 
-</RelativeLayout>
+</LinearLayout>

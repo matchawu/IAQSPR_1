@@ -8,9 +8,9 @@
     <ImageView
         android:id="@+id/imgLogo"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/logo"
-        android:contentDescription="@string/todo" />
+        android:layout_height="433dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/logo" />
     <!--<TextView-->
         <!--android:id="@+id/textWelcome"-->
         <!--android:layout_width="wrap_content"-->
@@ -25,10 +25,10 @@
         style="?android:attr/buttonBarButtonStyle"
         android:layout_width="234dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginBottom="20dp"
         android:background="@drawable/shape_button_enter"
         android:text="@string/enter"
-        android:layout_gravity="center"
 
         android:textColor="#FFFBDE"
         android:textSize="18sp" />

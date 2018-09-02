@@ -15,7 +15,6 @@
     <string name="_25">25</string>
     <string name="pm2_5">PM2.5</string>>
     <string name="pm10">PM10</string>
-    <string name="todo">TODO</string>
     <string name="on">ON</string>
     <string name="off">OFF</string>
     <string name="halo_this_map">halo_this_map</string>
@@ -23,4 +22,13 @@
     <string name="enter">Enter</string>
     <string name="lalala">lalala</string>
     <string name="air_quality">Air Quality</string>
+    <string name="open_the_iaqspr">Open the IAQSPR</string>
+    <string name="open_the_air_purifier">Open the air purifier</string>
+    <string name="map_route">Map Route</string>
+    <string name="todo">TODO</string>
+    <string name="user_infomation">User Infomation</string>
+    <string name="user_id">User ID:</string>
+    <string name="radiohead">radiohead</string>
+    <string name="_192_168_19_131">192.168.19.131</string>
+    <string name="device_id">Device ID:</string>
 </resources>
